@@ -1,0 +1,119 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+* {
+    margin: 0px ;
+    padding: 0px;
+}
+
+:root {
+    --font1:  'Josefin Sans', sans-serif;
+    --font2: 'Agdasima', sans-serif;
+    --font3: verdana, arial, sans-serif;
+}
+
+section#img01 {
+    height: 75vh;
+    background-color: black;
+    background-image: url(../imagens/bolo-mousse-de-chocolate-ickfd-dani-noce-15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+section#img01 > h1 {
+    background-color: rgba(0, 0, 0, 0.252);
+    padding: 5px;
+    display: inline-block;
+    color: white;
+    font-family: var(--font1);
+    font-weight: lighter;
+    font-size: 5vw;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.457);
+}
+
+section.normal {
+    padding: 30px;
+}
+
+section.normal > h2 {
+    font-family: var(--font2);
+    font-size: 2em;
+    line-height: 2em;
+}
+
+section.normal > ul {
+    list-style-position: inside;
+    font-family: var(--font3);
+    list-style-type: circle;
+}
+
+section.normal > ol {
+    list-style-position: inside;
+    font-family: var(--font3);
+}
+
+ol > li, ul > li {
+    margin: 0.5em;
+}
+
+section.normal > p {
+    font-family: var(--font3);
+    margin: 1em;
+}
+
+section#img02 {
+    height: 75vh;
+    background-color: black;
+    background-image: url(../imagens/bolo-mousse-de-chocolate-ickfd-dani-noce-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    box-shadow: inset 0px 10px 16px rgba(0, 0, 0, 0.509);
+}
+
+section#img03 {
+    height: 75vh;
+    background-color: black;
+    background-image: url(../imagens/bolo-mousse-de-chocolate-ickfd-dani-noce-15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    box-shadow: inset 0px 10px 16px rgba(0, 0, 0, 0.509);
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+main a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--font3);
+    padding: 10px;
+}
